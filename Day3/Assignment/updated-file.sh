@@ -1,7 +1,5 @@
-for files in *.pdf
-
 do
-	folderName=`echo $files | awk -F. '{print $1}'`;
+	folderName=`echo $updated | awk -F. '{print $1}'`;
 	echo $files;
 	echo $folderName;
 	printf "\n";
